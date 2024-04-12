@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import { Work_Sans } from 'next/font/google'
 import './globals.css'
 import Navbar from './layouts/navbar/Navbar'
+import { useLocale } from 'next-intl'
+import { notFound } from 'next/navigation'
 
 const workSans = Work_Sans({ subsets: ['latin'] })
 
@@ -12,11 +14,17 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+  params,
+}: {
   children: React.ReactNode
-}>) {
+  params: { locale: string }
+}) {
+  const locale = useLocale()
+  if (params.locale !== locale) {
+    notFound()
+  }
   return (
-    <html lang='en'>
+    <html lang={locale}>
       <body className={` bg-blue text-white ${workSans.className}`}>
         <Navbar />
         {children}
