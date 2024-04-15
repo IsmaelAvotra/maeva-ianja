@@ -3,6 +3,8 @@ import { IoSchoolSharp } from 'react-icons/io5'
 import { schools } from './data/schools'
 import { MdBusinessCenter } from 'react-icons/md'
 import ExperiencesContent from './ExperiencesContent'
+import { BiTask } from 'react-icons/bi'
+import ProjectsContent from './Projects'
 
 const Achievements = () => {
   return (
@@ -46,6 +48,13 @@ const Achievements = () => {
           Experiences professionnelle :
         </h3>
         <ExperiencesContent />
+      </div>
+      <div className='projects mt-8 tablet:mt-10'>
+        <h3 className='flex items-center gap-2 text-[18px] tablet:text-[20px] font-medium'>
+          <BiTask className='text-pink text-[24px] tablet:text-[32px]' />
+          Projects :
+        </h3>
+        <ProjectsContent />
       </div>
     </section>
   )
