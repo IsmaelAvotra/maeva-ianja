@@ -17,7 +17,7 @@ const Navbar = () => {
           priority
         />
       </Link>
-      <NavLinks />
+      {/* <NavLinks /> */}
       <div className='flex items-center gap-4'>
         <SwitchLanguage />
         <IoMenu className='text-[36px] text-white' />

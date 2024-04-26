@@ -20,8 +20,14 @@ export default function Home() {
         <h1 className='text-[28px] tablet:text-[36px] desktop:text-[40px] font-extrabold text-pink mb-1'>
           Maeva Ianja Estelle
         </h1>
+        {/* <h3 className='text-black text-[15px] font-medium mb-2'>
+          Future Honors Graduate of Iscae Casablanca
+        </h3> */}
+        <p className='text-justify font-normal tablet:text-[17px] desktop:text-[18px] text-white/80 mb-1 desktop:mb-2'>
+          {t('para1')}
+        </p>
         <p className='text-justify font-normal tablet:text-[17px] desktop:text-[18px] text-white/80 mb-6 desktop:mb-8'>
-          {t('para')}
+          {t('para2')}
         </p>
         <Navigation textBtn={t('textBtn')} />
       </div>
