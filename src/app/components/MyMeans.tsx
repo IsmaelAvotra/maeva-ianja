@@ -9,9 +9,8 @@ const MyMeansSection = () => {
     <section className='mt-8' id='means'>
       <h2>My means</h2>
       <p className='text-justify font-normal text-[15px] tablet:text-[16px] '>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut totam
-        deleniti eum est debitis ea blanditiis voluptatum qui perspiciatis? Est
-        quidem culpa sequi eligendi amet.
+        In order to achieve this "Goal project", I carried out an in-depth study
+        on my profile to establish my professional marketing strategy.
       </p>
       <div className='content mt-6'>
         <div className='swot mb-6'>
@@ -20,11 +19,13 @@ const MyMeansSection = () => {
             <p className='font-medium'>S.W.O.T results :</p>
           </div>
           <p className='text-[15px] text-justify text-white/90 font-normal'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            veritatis optio distinctio pariatur velit possimus voluptas iste
-            ipsa id, iure sed provident debitis eligendi eaque dicta corporis
-            ipsum natus suscipit unde aperiam laudantium totam voluptate veniam?
-            Quae, eligendi itaque. Consequuntur?
+            With my academic excellence within ISCAE, my status as an
+            international student as well as my qualities as an active,
+            responsible and committed person, I have the strength to overcome my
+            lack of experience in the field of finance and the rapid evolution
+            of the economic environment with technology to face the trends of
+            Green Finance, Fintech and Green Finance as an opportunity for my
+            professional and entrepreneurial career.
           </p>
         </div>
         <div className='positioning mb-6'>
@@ -33,11 +34,10 @@ const MyMeansSection = () => {
             <p className='font-medium'>Positioning statement :</p>
           </div>
           <p className='text-[15px] text-justify text-white/90 font-normal'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            veritatis optio distinctio pariatur velit possimus voluptas iste
-            ipsa id, iure sed provident debitis eligendi eaque dicta corporis
-            ipsum natus suscipit unde aperiam laudantium totam voluptate veniam?
-            Quae, eligendi itaque. Consequuntur?
+            To international investment banking or companies who are seeking to
+            improve the company portfolios performance, I am a future Private
+            Equity Analyst who puts excellence and commitment at the heart of
+            her value so that my proposal is your decision.
           </p>
         </div>
         <div className='mix-marketing mb-6'>
@@ -46,17 +46,14 @@ const MyMeansSection = () => {
             <p className='font-medium'>Mix marketing :</p>
           </div>
           <p className='text-[15px] text-justify text-white/90 mb-4 font-normal'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            veritatis optio distinctio pariatur velit possimus voluptas iste
-            ipsa id, iure sed provident debitis eligendi eaque dicta corporis
-            ipsum natus suscipit unde aperiam laudantium totam voluptate veniam?
-            Quae, eligendi itaque. Consequuntur?
+            After a strategic study, here is how it will be implemented at the
+            operational level.
           </p>
           <Image
-            src={'/team.jpg'}
+            src={'/mixm.png'}
             alt={'marketing photo illustration'}
-            width={1000}
-            height={667}
+            width={1920}
+            height={1080}
             className='rounded'
           />
         </div>
