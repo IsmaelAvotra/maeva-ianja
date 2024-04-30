@@ -9,7 +9,7 @@ const MyMeansSection = () => {
     <section className='mt-8' id='means'>
       <h2>My means</h2>
       <p className='text-justify font-normal text-[15px] tablet:text-[16px] '>
-        In order to achieve this "Goal project", I carried out an in-depth study
+        In order to achieve this Goal project, I carried out an in-depth study
         on my profile to establish my professional marketing strategy.
       </p>
       <div className='content mt-6'>
