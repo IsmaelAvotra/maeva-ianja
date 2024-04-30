@@ -1,9 +1,9 @@
 import React from 'react'
 import AboutMe from '../components/About'
-import Achievements from '../components/Achievements'
-import GoalProgressSection from '../components/GoalProgress'
-import MyMeansSection from '../components/MyMeans'
 import ContactSection from '../components/Contact'
+import GoalProgressSection from '../components/GoalProgress'
+import Achievements from '../components/Achievements'
+import MyMeansSection from '../components/MyMeans'
 
 const Profile = () => {
   return (

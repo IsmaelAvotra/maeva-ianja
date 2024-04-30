@@ -2,7 +2,7 @@ import React from 'react'
 
 const GoalProgressSection = () => {
   return (
-    <section className='mt-8'>
+    <section className='mt-8' id='goals'>
       <h2>Goals Progress</h2>
       <p className='text-justify font-normal text-[15px] tablet:text-[16px]'>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut totam

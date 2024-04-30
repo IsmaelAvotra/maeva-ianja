@@ -8,24 +8,24 @@ import ProjectsContent from './Projects'
 
 const Achievements = () => {
   return (
-    <section>
+    <section id='achievements'>
       <h2>Achievements</h2>
       <p className='text-justify font-normal text-[15px] tablet:text-[16px]'>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut totam
-        deleniti eum est debitis ea blanditiis voluptatum qui perspiciatis? Est
-        quidem culpa sequi eligendi amet.
+        To further illuminate my profile, please find below the following
+        headings: my educational background, professional experiences, and some
+        projects I’ve had the honor to participate in.
       </p>
       <div className='school-career mt-4 tablet:mt-6'>
         <h3 className='flex items-center gap-2 text-[18px] tablet:text-[20px] font-medium'>
           <IoSchoolSharp className='text-pink text-[24px] tablet:text-[32px]' />
-          Parcours scolaires :
+          Educational background :
         </h3>
         <div className='experience-content flex gap-4 overflow-auto mt-4 tablet:mt-6'>
           {schools.map((school) => {
             return (
               <div
                 key={school.id}
-                className='experience-card bg-blue mb-4 min-w-[370px] tablet:min-w-[400px]'
+                className='experience-card bg-blue mb-4 min-w-[370px]  tablet:min-w-[400px]'
               >
                 <p className='text-[14px] text-black/75 text-titlecolor font-medium mb-1'>
                   {school.date}
@@ -45,7 +45,7 @@ const Achievements = () => {
       <div className='experiences  mt-4 tablet:mt-6'>
         <h3 className='flex items-center gap-2 text-[18px] tablet:text-[20px] font-medium'>
           <MdBusinessCenter className='text-pink text-[24px] tablet:text-[32px]' />
-          Experiences professionnelle :
+          Professional experiences :
         </h3>
         <ExperiencesContent />
       </div>

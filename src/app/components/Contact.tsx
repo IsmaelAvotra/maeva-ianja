@@ -4,7 +4,7 @@ import { MdOutlineEmail, MdOutlinePermPhoneMsg } from 'react-icons/md'
 
 const ContactSection = () => {
   return (
-    <section className='mt-8'>
+    <section className='mt-8' id='contact'>
       <h2>Get in touch</h2>
       <p className='text-justify font-normal text-[15px] tablet:text-[16px]'>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut totam

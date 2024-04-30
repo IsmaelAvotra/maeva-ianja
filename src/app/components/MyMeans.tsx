@@ -6,7 +6,7 @@ import { MdQueryStats } from 'react-icons/md'
 
 const MyMeansSection = () => {
   return (
-    <section className='mt-8'>
+    <section className='mt-8' id='means'>
       <h2>My means</h2>
       <p className='text-justify font-normal text-[15px] tablet:text-[16px] '>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut totam

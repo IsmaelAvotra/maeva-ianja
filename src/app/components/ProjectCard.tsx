@@ -22,7 +22,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           alt={`${projectTitle} image illustration`}
           width={1000}
           height={667}
-          className='rounded-md'
+          className='rounded-md h-[350px] object-cover'
         />
       </div>
       <div className='bottom'>
