@@ -58,7 +58,7 @@ const MyMeansSection = () => {
             alt={'marketing photo illustration'}
             width={1920}
             height={1080}
-            className='rounded w-full'
+            className='rounded w-full desktop:w-[80%] mx-auto'
           />
         </div>
       </div>

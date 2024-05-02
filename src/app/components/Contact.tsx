@@ -23,23 +23,34 @@ const ContactSection = () => {
                   'https://www.linkedin.com/in/maeva-ianja-andriantody-43a253245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
                 }
                 target='_blank'
+                className='hover:text-pink'
               >
                 Maeva Ianja Andriantody
               </Link>
             </div>
             <div className='phone flex items-center gap-2 mb-4'>
               <MdOutlinePermPhoneMsg className='text-[22px]' />
-              <Link href='tel:+212688528344'>+212 688528344</Link>
+              <Link href='tel:+212688528344' className='hover:text-pink'>
+                +212 688528344
+              </Link>
             </div>
             <div className='whatsapp flex items-center gap-2 mb-4'>
               <FaWhatsapp className='text-[22px]' />
-              <Link href='whatsapp://send?text=Hello Maeva!&phone=+212688528344'>
+              <Link
+                href='whatsapp://send?text=Hello Maeva!&phone=+212688528344'
+                className='hover:text-pink'
+              >
                 +212 688528344
               </Link>
             </div>
             <div className='mail flex items-center gap-2 mb-2'>
               <MdOutlineEmail className='text-[22px]' />
-              <Link href='maevaianja@gmail.com'>maevaianja@gmail.com</Link>
+              <Link
+                href='mailto:maevaianja@gmail.com'
+                className='hover:text-pink'
+              >
+                maevaianja@gmail.com
+              </Link>
             </div>
           </div>
         </div>
