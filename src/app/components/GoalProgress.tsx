@@ -6,7 +6,7 @@ const GoalProgressSection = () => {
     <section className='mt-8 relative' id='goals'>
       <h2>Goals Progress</h2>
       <p className='text-justify font-normal text-[15px] tablet:text-[16px]'>
-        Here's how I want to progress in my career.
+        Here is how I want to progress in my career.
       </p>
       <picture>
         <source
