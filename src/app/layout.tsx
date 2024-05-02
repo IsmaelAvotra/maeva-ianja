@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://maeva-ianja-portfolio.vercel.app/'),
   openGraph: {
     title: 'Maeva ianja portfolio',
-    images: ['https://maeva-ianja-portfolio.vercel.app/logo.png'],
+    images: ['https://maeva-ianja-portfolio.vercel.app/share.jpeg'],
   },
   authors: {
     url: 'https://ismael-avotra.vercel.app/',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    images: ['https://maeva-ianja-portfolio.vercel.app/logo.png'],
+    images: ['https://maeva-ianja-portfolio.vercel.app/share.jpeg'],
   },
   other: {
     google: 'notranslate',
