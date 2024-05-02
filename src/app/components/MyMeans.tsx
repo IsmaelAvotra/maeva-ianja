@@ -15,8 +15,10 @@ const MyMeansSection = () => {
       <div className='content mt-6'>
         <div className='swot mb-6'>
           <div className='title flex items-center gap-2 mb-1'>
-            <MdQueryStats className='text-[24px] text-pink' />
-            <p className='font-medium'>S.W.O.T results :</p>
+            <MdQueryStats className='text-[24px] desktop:text-[28px] text-pink' />
+            <p className='font-medium  desktop:text-[20px]'>
+              S.W.O.T results :
+            </p>
           </div>
           <p className='text-[15px] text-justify text-white/90 font-normal'>
             With my academic excellence within ISCAE, my status as an
@@ -30,8 +32,10 @@ const MyMeansSection = () => {
         </div>
         <div className='positioning mb-6'>
           <div className='title flex items-center gap-2 mb-1'>
-            <FaLocationCrosshairs className='text-[20px] text-pink' />
-            <p className='font-medium'>Positioning statement :</p>
+            <FaLocationCrosshairs className='text-[20px] desktop:text-[24px] text-pink' />
+            <p className='font-medium  desktop:text-[20px]'>
+              Positioning statement :
+            </p>
           </div>
           <p className='text-[15px] text-justify text-white/90 font-normal'>
             To international investment banking or companies who are seeking to
@@ -42,8 +46,8 @@ const MyMeansSection = () => {
         </div>
         <div className='mix-marketing mb-6'>
           <div className='title flex items-center gap-2 mb-1'>
-            <IoMegaphoneOutline className='text-[24px] text-pink' />
-            <p className='font-medium'>Mix marketing :</p>
+            <IoMegaphoneOutline className='text-[24px] desktop:text-[28px] text-pink' />
+            <p className='font-medium  desktop:text-[20px]'>Mix marketing :</p>
           </div>
           <p className='text-[15px] text-justify text-white/90 mb-4 font-normal'>
             After a strategic study, here is how it will be implemented at the
@@ -54,7 +58,7 @@ const MyMeansSection = () => {
             alt={'marketing photo illustration'}
             width={1920}
             height={1080}
-            className='rounded'
+            className='rounded w-full'
           />
         </div>
       </div>
