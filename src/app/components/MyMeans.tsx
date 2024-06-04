@@ -14,7 +14,7 @@ const MyMeansSection = () => {
       </p>
       <div className='content mt-6'>
         <div className='swot mb-6'>
-          <div className='title flex items-center gap-2 mb-1'>
+          <div className='flex items-center gap-2 mb-1 w-full'>
             <MdQueryStats className='text-[24px] desktop:text-[28px] text-pink' />
             <p className='font-medium  desktop:text-[20px]'>
               S.W.O.T results :
@@ -31,7 +31,7 @@ const MyMeansSection = () => {
           </p>
         </div>
         <div className='positioning mb-6'>
-          <div className='title flex items-center gap-2 mb-1'>
+          <div className='flex items-center gap-2 mb-1 w-full'>
             <FaLocationCrosshairs className='text-[20px] desktop:text-[24px] text-pink' />
             <p className='font-medium  desktop:text-[20px]'>
               Positioning statement :
@@ -45,7 +45,7 @@ const MyMeansSection = () => {
           </p>
         </div>
         <div className='mix-marketing mb-6'>
-          <div className='title flex items-center gap-2 mb-1'>
+          <div className='flex items-center gap-2 mb-1 w-full'>
             <IoMegaphoneOutline className='text-[24px] desktop:text-[28px] text-pink' />
             <p className='font-medium  desktop:text-[20px]'>Mix marketing :</p>
           </div>

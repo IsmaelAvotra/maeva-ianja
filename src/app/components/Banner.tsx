@@ -24,7 +24,7 @@ const Banner = () => {
           alt={"maeva ianja's photo"}
           width={1000}
           height={714}
-          className='rounded h-[400px] tablet:h-auto desktop:h-[640px] w-full object-cover'
+          className='rounded h-[54vh] tablet:h-auto desktop:h-[640px] w-full object-cover'
         />
       </div>
       <div
