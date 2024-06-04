@@ -15,6 +15,8 @@ export const metadata: Metadata = {
     'finance',
     'capital investment',
     'analyst',
+    'portfolio',
+    'gestion'
   ],
   metadataBase: new URL('https://maeva-ianja-portfolio.vercel.app/'),
   openGraph: {
