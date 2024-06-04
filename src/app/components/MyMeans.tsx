@@ -53,13 +53,15 @@ const MyMeansSection = () => {
             After a strategic study, here is how it will be implemented at the
             operational level.
           </p>
+          <div className='w-full overflow-hidden'>
           <Image
             src={'/mixm.png'}
             alt={'marketing photo illustration'}
             width={1920}
             height={1080}
-            className='rounded w-full desktop:w-[80%] mx-auto'
+            className='rounded transform scale-125 desktop:scale-100 mt-10 desktop:mt-5 h-auto desktop:w-[80%] mx-auto'
           />
+          </div>
         </div>
       </div>
     </section>
