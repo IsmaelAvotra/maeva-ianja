@@ -7,7 +7,6 @@ interface ExperienceCardProps {
   date: string
   isOpen: boolean
   experienceTitle: string
-  para: string
   skillsAcquired: string[]
   onToggle: () => void
 }
@@ -18,7 +17,6 @@ export const ExperienceCard: React.FC<ExperienceCardProps> = ({
   isOpen,
   onToggle,
   experienceTitle,
-  para,
   skillsAcquired,
 }) => {
   return (
@@ -33,16 +31,14 @@ export const ExperienceCard: React.FC<ExperienceCardProps> = ({
             <p className='text-[12px] text-black/75'>{date}</p>
           </div>
           <IoCaretDownSharp
-            className={`text-[20px] transition-all duration-500 ${
-              isOpen ? ' rotate-180' : 'rotate-0'
-            }`}
+            className={`text-[20px] transition-all duration-500 ${isOpen ? ' rotate-180' : 'rotate-0'
+              }`}
           />
         </div>
       </div>
       {!isOpen ? null : (
         <div className='content font-medium text-[14px] px-2 pt-2 pb-4'>
           <p className='text-blue'>{experienceTitle}</p>
-          <p className='text-black/75 font-normal text-justify'>{para}</p>
           <ul className='mt-2 text-black/75'>
             {skillsAcquired.map((skill) => {
               return (

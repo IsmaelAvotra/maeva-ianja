@@ -1,24 +1,25 @@
 import Image from 'next/image'
 import React from 'react'
+import { t } from '../lib/t'
+import { cookies } from 'next/headers'
 
 const AboutMe = () => {
+  const lang = (cookies().get('lang')?.value || 'fr') as 'fr' | 'en'
   return (
     <section
       className='mb-8 flex flex-col gap-4 desktop:gap-12 desktop:flex-row desktop:items-center'
       id='about'
     >
       <div className='text desktop:flex-1'>
-        <h2>About Me</h2>
+        <h2>{t(lang, 'about.title')}</h2>
         <p className='text-justify font-normal text-[15px] tablet:text-[16px]'>
-          After two years at the prestigious ENCG Casablanca, I passed the exam
-          to join ISCAE Casablanca, the top business school. Currently in
-          Pre-Master, I’ve shown determination and proactivity since arriving in
-          Morocco in 2021, enriching my profile through part-time jobs, my first
-          internship, and various projects. I’ve developed cross-functional
-          skills in team and time management, becoming organized, responsible,
-          and committed. Interested in investment and entrepreneurship, I plan
-          to pursue a career in corporate finance consulting and private equity,
-          seeking opportunities in major organizations in this country.
+          {t(lang, 'about.para1')}
+        </p>
+        <p className='text-justify font-normal text-[15px] tablet:text-[16px] my-2 tablet:my-4'>
+          {t(lang, 'about.para2')}
+        </p>
+        <p className='text-justify font-normal text-[15px] tablet:text-[16px]'>
+          {t(lang, 'about.para1')}
         </p>
       </div>
       <div

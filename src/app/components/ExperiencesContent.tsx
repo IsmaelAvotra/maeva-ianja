@@ -1,17 +1,21 @@
 'use client'
 import React, { useState } from 'react'
-import { experienceData } from './data/experiences'
 import { ExperienceCard } from './ExperienceCard'
+import { experienceDataEN } from './data/experienceDataEN'
+import { experienceDataFR } from './data/experienceDataFR'
 
-const ExperiencesContent = () => {
+const ExperiencesContent = ({ lang }: { lang: 'fr' | 'en' }) => {
   const [openSection, setOpenSection] = useState<number | null>(0)
+
+  const selectedExperiences = lang === "fr" ? experienceDataFR : experienceDataEN
+
   const handleToggle = (sectionIndex: number) => {
     setOpenSection(openSection === sectionIndex ? null : sectionIndex)
   }
 
   return (
     <div className='mt-4 flex flex-col gap-2'>
-      {experienceData.map((exp, index) => {
+      {selectedExperiences.map((exp, index) => {
         return (
           <ExperienceCard
             key={exp.date}
@@ -19,7 +23,6 @@ const ExperiencesContent = () => {
             date={exp.date}
             isOpen={openSection === index}
             experienceTitle={exp.experienceTitle}
-            para={exp.para}
             skillsAcquired={exp.skillsAcquired}
             onToggle={() => handleToggle(index)}
           />

@@ -22,12 +22,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           alt={`${projectTitle} image illustration`}
           width={1000}
           height={667}
-          className='rounded-md h-[350px] object-cover'
+          className='rounded-md h-[350px] desktop:h-[200px] object-cover'
         />
       </div>
       <div className='bottom'>
         <h4 className=' font-medium text-pink'>{projectTitle}</h4>
-        <p className='text-[12px] text-black'>{date}</p>
+        <p className='text-[12px] text-[#9BBEC7]'>{date}</p>
         <p className='text-justify text-[14px] mt-2 font-normal'>
           {description}
         </p>
