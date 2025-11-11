@@ -35,6 +35,10 @@ projects:{
 drivers:{
     title:'Mes Drivers',
     swotTitle:'S.W.O.T',
-    swotPara:'Mon profil international, ma curiosité intellectuelle et mon engagement personnel sont des atouts majeurs qui me permettent de progresser avec persévérance. Bien que je ne dispose pas encore de certifications ni d’une expérience approfondie en finance, ma formation bilingue entre NEOMA et l’ISCAE m’offre une ouverture unique sur différents environnements culturels et économiques. Face à un secteur en constante évolution, marqué par la technologie, l’intelligence artificielle et la digitalisation, je vois autant de défis que d’opportunités pour affirmer mon positionnement et construire une carrière à fort impact.'
+    swotPara:'Mon profil international, ma curiosité intellectuelle et mon engagement personnel sont des atouts majeurs qui me permettent de progresser avec persévérance. Bien que je ne dispose pas encore de certifications ni d’une expérience approfondie en finance, ma formation bilingue entre NEOMA et l’ISCAE m’offre une ouverture unique sur différents environnements culturels et économiques. Face à un secteur en constante évolution, marqué par la technologie, l’intelligence artificielle et la digitalisation, je vois autant de défis que d’opportunités pour affirmer mon positionnement et construire une carrière à fort impact.',
+    positionTitle:'Mon positionnement',
+    positionPara:'Aux structures qui accompagnent les entreprises ou les clients dans leur développement à fort impact, je suis votre facteur clé, portée par l’excellence, la rigueur et une soif d’apprendre, prête à intervenir sur des missions de financement, d’investissement ou de conseil stratégique.',
+    marketingTitle:'Mon Mix Marketing',
+    marketingPara:'Après une étude stratégique, voici comment cela sera mis en œuvre au niveau opérationnel.'
 }
 }

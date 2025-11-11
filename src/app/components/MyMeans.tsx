@@ -25,30 +25,26 @@ const MyMeansSection = () => {
         </div>
         <div className='positioning mb-6'>
           <div className='flex items-center gap-2 mb-1 w-full'>
-            <FaLocationCrosshairs className='text-[20px] desktop:text-[24px] text-pink' />
+            <FaLocationCrosshairs className='text-[20px] desktop:text-[24px] text-[#9BBEC7]' />
             <p className='font-medium  desktop:text-[20px]'>
-              Positioning statement :
+              {t(lang, 'drivers.positionTitle')} :
             </p>
           </div>
           <p className='text-[15px] text-justify text-white/90 font-normal'>
-            To international investment banking or companies who are seeking to
-            improve the company portfolios performance, I am a future Private
-            Equity Analyst who puts excellence and commitment at the heart of
-            her value so that my proposal is your decision.
+            {t(lang, 'drivers.positionPara')}
           </p>
         </div>
         <div className='mix-marketing mb-6'>
           <div className='flex items-center gap-2 mb-1 w-full'>
-            <IoMegaphoneOutline className='text-[24px] desktop:text-[28px] text-pink' />
-            <p className='font-medium  desktop:text-[20px]'>Mix marketing :</p>
+            <IoMegaphoneOutline className='text-[24px] desktop:text-[28px] text-[#9BBEC7]' />
+            <p className='font-medium  desktop:text-[20px]'>{t(lang, 'drivers.marketingTitle')} :</p>
           </div>
           <p className='text-[15px] text-justify text-white/90 mb-4 font-normal'>
-            After a strategic study, here is how it will be implemented at the
-            operational level.
+            {t(lang, 'drivers.marketingPara')}
           </p>
           <div className='w-full overflow-hidden'>
             <Image
-              src={'/mixm.png'}
+              src={lang == 'fr' ? '/mixmFR.png' : '/mixmEN.png'}
               alt={'marketing photo illustration'}
               width={1920}
               height={1080}

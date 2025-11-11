@@ -19,7 +19,7 @@ const AboutMe = () => {
           {t(lang, 'about.para2')}
         </p>
         <p className='text-justify font-normal text-[15px] tablet:text-[16px]'>
-          {t(lang, 'about.para1')}
+          {t(lang, 'about.para3')}
         </p>
       </div>
       <div

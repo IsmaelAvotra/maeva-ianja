@@ -35,6 +35,10 @@ projects:{
 drivers:{
     title:'My drivers',
     swotTitle:'S.W.O.T',
-    swotPara:'My international background, intellectual curiosity, and personal commitment are major strengths that allow me to progress with determination. Although I do not yet have certifications or extensive experience in finance, my bilingual training between NEOMA and ISCAE gives me a unique exposure to diverse cultural and economic environments. In a constantly evolving sector shaped by technology, artificial intelligence, and digitalization, I see just as many challenges as opportunities to strengthen my positioning and build a high-impact career.'
+    swotPara:'My international background, intellectual curiosity, and personal commitment are major strengths that allow me to progress with determination. Although I do not yet have certifications or extensive experience in finance, my bilingual training between NEOMA and ISCAE gives me a unique exposure to diverse cultural and economic environments. In a constantly evolving sector shaped by technology, artificial intelligence, and digitalization, I see just as many challenges as opportunities to strengthen my positioning and build a high-impact career.',
+    positionTitle:'Positioning statement',
+    positionPara:'For organizations supporting high-impact business or client development, I am your key driver — guided by excellence, rigor, and a thirst for learning, ready to contribute to missions in financing, investment, or strategic consulting.',
+    marketingTitle:'Mix Marketing',
+    marketingPara:'After a strategic study, here is how it will be implemented at the operational level.'
 }
 }

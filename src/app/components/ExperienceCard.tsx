@@ -23,7 +23,7 @@ export const ExperienceCard: React.FC<ExperienceCardProps> = ({
     <div className={` ${isOpen ? 'bg-white' : 'bg-white/90'} rounded w-full`}>
       <div className=' border-b border-black/10'>
         <div
-          className='top p-2 flex items-center justify-between text-blue'
+          className='top p-2 flex items-center justify-between cursor-pointer text-blue'
           onClick={onToggle}
         >
           <div>
