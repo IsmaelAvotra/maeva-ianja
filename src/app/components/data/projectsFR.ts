@@ -4,7 +4,7 @@ export const projectsDataFR = [
     date: '2025',
     description:
       'Analyse du business model, de la structure des coûts et de la profitabilité ; proposition d’un système de gestion et d’optimisation financière : pricing, rentabilité, trésorerie. → Découverte d’une mission de conseil.',
-    imagePath: '/iscae.jpeg',
+    imagePath: '/pip.jpg',
   },
   {
     projectTitle: 'Projet à impact social (PIS)',
@@ -46,13 +46,13 @@ export const projectsDataFR = [
     date: '2023-2024',
     description:
       'Projet académique sur la prévision des stocks avec le dataset Retail Story sous Power BI et traitement de base de données  de Cinema sous Access.Une opportunité de mettre en avant l’esprit d’équipe, la créativité et l’esprit critique.',
-    imagePath: '/comm.jpeg',
+    imagePath: '/data_analysis.jpg',
   },
   {
     projectTitle: 'Finance & stratégie',
     date: '2023-2024',
     description:
       'Projet académique pour l’analyse financière de Dari Couspate; simulation de gestion d’un portefeuille d’actions et visite stratégique de COSUMAR.Une opportunité de développer la culture financière, stratégique et professionnelle.',
-    imagePath: '/comm.jpeg',
+    imagePath: '/finance_strat.jpg',
   },
 ]

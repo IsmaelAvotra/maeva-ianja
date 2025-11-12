@@ -4,7 +4,7 @@ export const projectsDataEN = [
     date: '2025',
     description:
       'Analysis of the business model, cost structure, and profitability; proposal of a financial management and optimization system: pricing, profitability, cash flow.Discovery of a consulting mission.',
-    imagePath: '/iscae.jpeg',
+    imagePath: '/pip.jpg',
   },
   {
     projectTitle: 'Social Impact Project (SIP)',
@@ -47,7 +47,7 @@ export const projectsDataEN = [
     date: '2023-2024',
     description:
       'Academic project on stock forecasting using the Retail Story dataset in Power BI, and database management of a Cinema dataset in Microsoft Access. An opportunity to showcase teamwork, creativity, and critical thinking.',
-    imagePath: '/comm.jpeg',
+    imagePath: '/data_analysis.jpg',
   },
   {
     projectTitle: 'Finance & Strategy',

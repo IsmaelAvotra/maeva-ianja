@@ -48,7 +48,7 @@ const MyMeansSection = () => {
               alt={'marketing photo illustration'}
               width={1920}
               height={1080}
-              className='rounded transform scale-125 desktop:scale-100 mt-10 desktop:mt-5 h-auto desktop:w-[80%] mx-auto'
+              className='rounded transform scale-115 desktop:scale-100 mt-4 desktop:mt-5 h-auto desktop:w-[80%] mx-auto'
             />
           </div>
         </div>
