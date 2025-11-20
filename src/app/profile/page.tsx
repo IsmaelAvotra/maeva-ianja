@@ -10,7 +10,7 @@ const Profile = () => {
     <div className='min-h-screen max-w-[1600px] mx-auto pt-4 px-2 tablet:px-6 desktop:px-8 pb-16'>
       <AboutMe />
       <Achievements />
-      <GoalProgressSection />
+      {/* <GoalProgressSection /> */}
       <MyMeansSection />
       <ContactSection />
     </div>

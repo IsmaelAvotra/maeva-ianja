@@ -54,6 +54,6 @@ export const projectsDataEN = [
     date: '2023-2024',
     description:
       'Academic project involving financial analysis of Dari Couspate, equity portfolio management simulation, and a strategic company visit to COSUMAR. An opportunity to deepen financial, strategic, and professional awareness.',
-    imagePath: '/comm.jpeg',
+    imagePath: '/finance_strat.jpg',
   },
 ]

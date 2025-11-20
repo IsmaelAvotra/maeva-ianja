@@ -44,7 +44,7 @@ const MyMeansSection = () => {
           </p>
           <div className='w-full overflow-hidden'>
             <Image
-              src={lang == 'fr' ? '/mixmFR.png' : '/mixmEN.png'}
+              src={lang == 'fr' ? '/mixmFR.png' : '/mixm.png'}
               alt={'marketing photo illustration'}
               width={1920}
               height={1080}

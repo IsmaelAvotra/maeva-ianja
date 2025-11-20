@@ -40,5 +40,9 @@ drivers:{
     positionPara:'For organizations supporting high-impact business or client development, I am your key driver — guided by excellence, rigor, and a thirst for learning, ready to contribute to missions in financing, investment, or strategic consulting.',
     marketingTitle:'Mix Marketing',
     marketingPara:'After a strategic study, here is how it will be implemented at the operational level.'
+},
+contact:{
+    title:"Get in Touch ",
+    para:"If you appreciate my work, feel free to consider recommending me to others or even recruiting me. Additionally, you can reach out directly if you need any services. Thank you!"
 }
 }

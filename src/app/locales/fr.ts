@@ -10,7 +10,7 @@ navbar: {
 banner:{
     para1:'Avec une solide formation en Corporate Finance à l’ISCAE Casablanca et actuellement en fin de cursus dans le cadre d’un programme d’échange à NEOMA Business School, je construis un parcours international à la croisée des enjeux stratégiques de l’investissement.',
     para2:'Forte d’une première expérience en M&A et d’un profil multiculturel, je développe une vision globale tournée vers l’impact et la création de valeur durable. Explorez un profil rigoureux, curieux et engagé, prêt à transformer les défis en opportunités.',
-    button:'En savair plus sur moi'
+    button:'En savoir plus sur moi'
 },
 about:{
     title:'A propos de moi',
@@ -40,5 +40,9 @@ drivers:{
     positionPara:'Aux structures qui accompagnent les entreprises ou les clients dans leur développement à fort impact, je suis votre facteur clé, portée par l’excellence, la rigueur et une soif d’apprendre, prête à intervenir sur des missions de financement, d’investissement ou de conseil stratégique.',
     marketingTitle:'Mon Mix Marketing',
     marketingPara:'Après une étude stratégique, voici comment cela sera mis en œuvre au niveau opérationnel.'
+},
+contact:{
+    title:"Entrer en contact",
+    para:"Si vous appréciez celle vous venez de découvrir, n’hésitez pas à me recommander ou à envisager à me faire une proposition. Vous pouvez également me contacter directement pour toute demande ou service. Merci !"
 }
 }
