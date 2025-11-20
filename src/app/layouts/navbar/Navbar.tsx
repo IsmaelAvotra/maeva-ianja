@@ -60,14 +60,14 @@ export default function Navbar({ lang }: { lang: 'fr' | 'en' }) {
             <GoProjectRoadmap className='text-[20px] tablet:text-[24px] desktop:text-[20px]' />
             {t(lang, 'navbar.achievements')}
           </Link>
-          <Link
+          {/* <Link
             href={`/profile/#goals`}
             className='text-[18px] desktop:text-[16px] hover:text-pink active:text-pink focus:text-pink flex items-center gap-2'
             onClick={() => setMenuOpen(false)}
           >
             <AiOutlineFundProjectionScreen className='text-[20px] tablet:text-[24px] desktop:text-[20px]' />
             {t(lang, 'navbar.goals')}
-          </Link>
+          </Link> */}
           <Link
             href={`/profile/#means`}
             className='text-[18px] desktop:text-[16px] hover:text-pink active:text-pink focus:text-pink flex items-center gap-2'
